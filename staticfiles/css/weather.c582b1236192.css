@@ -1,0 +1,24 @@
+.profile-details-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: none; /* Initially hide the container */
+}
+
+.profile-details-container.show {
+  display: block; /* Show the container when the 'show' class is added */
+}
+
+.profile-photo {
+  width: 100px; /* Adjust the width of the profile photo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.profile1{
+  width: 50px;
+  border-radius: 50%;
+}
