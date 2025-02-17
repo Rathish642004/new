@@ -81,16 +81,8 @@ WSGI_APPLICATION = 'students_details.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',          # Database name
-        'USER': 'postgres',          # Database user
-        'PASSWORD': '20205050',       # Database password
-        'HOST': 'localhost',         # Database host
-        'PORT': '5432',              # Database port
-        'OPTIONS': {
-            'sslmode': 'prefer',     # SSL mode
-            'connect_timeout': 10    # Connection timeout
-        }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
